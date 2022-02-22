@@ -14,7 +14,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "pkg . -t node14-macos-x64 -o ./build/coord -d"
+    "build": "pkg . -t node14-macos-arm64,node14-macos-x64 --out-path ./build -d"
   },
   "keywords": [],
   "author": "Jeremy <hxia3@ncsu.edu>",
