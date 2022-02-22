@@ -1,0 +1,28 @@
+{
+  "name": "map-coord-transform",
+  "version": "0.0.1",
+  "description": "transform geojson coord from meter offsets to lonlat",
+  "main": "bin/index.js",
+  "bin": {
+    "coord": "bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jeremy <hxia3@ncsu.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.10.0",
+    "colors": "^1.4.0",
+    "commander": "^9.0.0",
+    "proj4": "^2.7.5"
+  }
+}
